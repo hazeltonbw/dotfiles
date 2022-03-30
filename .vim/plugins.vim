@@ -12,7 +12,6 @@ Plug 'mxw/vim-jsx'
 Plug 'elzr/vim-json'
 Plug 'mattn/emmet-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'morhetz/gruvbox'
 Plug 'mlaursen/vim-react-snippets'
@@ -118,5 +117,4 @@ let g:mkdp_page_title = '「${name}」'
 " recognized filetypes
 " these filetypes will have MarkdownPreview... commands
 let g:mkdp_filetypes = ['markdown']
-
-let g:UltiSnipsExpandTrigger = '<c-tab>'
+:kl
