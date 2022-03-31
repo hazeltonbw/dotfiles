@@ -25,7 +25,7 @@ let g:gruvbox_contrast_dark="medium"
 
 let mapleader=','
 
-nnoremap <leader>n :NERDTreeToggle<CR>
+nnoremap <leader>n :NERDTreeFocus<CR>
 
 " set to 1, nvim will open the preview window after entering the markdown buffer
 " default: 0
