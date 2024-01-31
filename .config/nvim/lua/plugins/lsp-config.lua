@@ -23,6 +23,9 @@ return {
       lspconfig.tsserver.setup({
         capabilities = capabilities
       })
+      lspconfig.marksman.setup({
+        capabilities = capabilities
+      })
       lspconfig.bashls.setup({
         capabilities = capabilities
       })
