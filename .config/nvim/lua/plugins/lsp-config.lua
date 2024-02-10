@@ -24,6 +24,9 @@ return {
       lspconfig.tsserver.setup({
         capabilities = capabilities
       })
+      lspconfig.tailwindcss.setup({
+        capabilities = capabilities
+      })
       lspconfig.ltex.setup({
         capabilities = capabilities
       })
